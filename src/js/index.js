@@ -9,7 +9,7 @@ const gallery = document.querySelector('.gallery');
 const btnLoadMore = document.querySelector('.load-more');
 let gallerySimpleLightbox = new SimpleLightbox('.gallery a');
 
-btnLoadMore.style.display = 'nosne';
+btnLoadMore.style.display = 'none';
 
 let pageNumber = 1;
 
